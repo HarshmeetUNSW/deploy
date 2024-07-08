@@ -22,7 +22,7 @@ def download_model(url, output_path):
 url ="https://drive.google.com/file/d/1eb5CZJgcqKthwMl2TgKZF2HFrwsGDJ3d/view?usp=sharing"
 
 # Desired path to save the downloaded file
-output_path = 'final_fine_tuned_bert/model.safetensors'
+output_path = 'final_fine_tuned_bert/'
 
 download_model(url, output_path)
 
