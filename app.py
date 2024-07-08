@@ -26,6 +26,19 @@ output_path = 'final_fine_tuned_bert/model.safetensors'
 
 download_model(url, output_path)
 
+# Check if the model files are correctly placed
+def check_files(path):
+    if os.path.exists(path):
+        st.write("Model files found:")
+        files = os.listdir(path)
+        for file in files:
+            st.write(file)
+    else:
+        st.write("Model directory not found.")
+
+# Use these functions in your app setup
+check_files('final_fine_tuned_bert/')
+
 # Load an image
 logo = Image.open("TikTok-logo.png")
 
