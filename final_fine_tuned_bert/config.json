@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "/fine_tuned_bert",
+  "_name_or_path": "/content/fine_tuned_bert",
   "architectures": [
     "BertForSequenceClassification"
   ],
