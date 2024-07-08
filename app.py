@@ -53,7 +53,7 @@ with col2:
 # Load the model and tokenizer once
 @st.cache_resource 
 def load_model():
-    model = BertForSequenceClassification.from_pretrained('final_fine_tuned_bert/')
+    model = BertForSequenceClassification.from_pretrained(st.secrets['MODEL_PATH'])
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
     model.eval()  # Put the model in evaluation mode
     return model, tokenizer
