@@ -19,7 +19,7 @@ def download_model(url, output_path):
         st.write("Model already downloaded.")
 
 # URL of the model file on Google Drive
-url ="https://drive.google.com/file/d/1eb5CZJgcqKthwMl2TgKZF2HFrwsGDJ3d/view?usp=sharing"
+url ="https://drive.google.com/file/d/1jFafwVbU0xeoZ8g7oyY9i__5ulC7Ep4b/view?usp=sharing"
 
 # Desired path to save the downloaded file
 output_path = 'final_fine_tuned_bert/model.safetensors'
