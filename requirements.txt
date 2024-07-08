@@ -3,7 +3,6 @@ streamlit
 pillow
 torch
 transformers
-os
 gdown
 matplotlib
 lime
